@@ -1,0 +1,68 @@
+.form {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+  padding: 1rem;
+  background-color: var(--card-background);
+  border-radius: 1rem;
+  border-top-right-radius: 0;
+  margin-top: 20px;
+  input,
+  textarea {
+    padding: 0.4rem 1.2rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.753);
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.171);
+    resize: vertical;
+  }
+  input[name='title'] {
+    color: rgba(255, 255, 255, 0.877);
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+  }
+  textarea {
+    border-bottom-left-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+  }
+  .row_btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    gap: 5px;
+    overflow: hidden;
+    transform: translateY(-100%);
+    background-color: var(--card-background);
+    button {
+      padding: 0.4rem 0.8rem;
+      font-size: 0.8rem;
+      cursor: pointer;
+      background-color: transparent;
+      border: none;
+      color: rgba(255, 255, 255, 0.829);
+      font-family: var(--font-family);
+      
+
+      &:nth-child(1) {
+        background-color: rgba(51, 5, 255, 0.07);
+        &:hover {
+          background-color: rgba(51, 5, 255, 0.15);
+        }
+      }
+      &:nth-child(2) {
+        background-color: rgba(255, 34, 5, 0.07);
+        &:hover {
+          background-color: rgba(255, 34, 5, 0.15);
+        }
+      }
+      
+    }
+    
+  }
+}

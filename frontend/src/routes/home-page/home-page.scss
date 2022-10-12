@@ -1,0 +1,42 @@
+.home_page {
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    .hero_block {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .hero_text {
+            max-width: 600px;
+            h1 {
+                font-size: 3rem;
+                line-height: 1.1;
+            }
+            p {
+                width: 80%;
+                font-size: 18px;
+                line-height: 27px;
+                color: rgba(255, 255, 255, 0.712);
+            }
+            button {
+                background-color: wheat;
+                padding: .7rem 1.7rem;
+                font-size: 1rem;
+                font-family: var(--font-family);
+                font-weight: 700;
+                cursor: pointer;
+                border-radius: 5px;
+            }
+        }
+
+        .hero_img {
+            img {
+                max-width: 500px;
+                transform: translateX(-100px);
+            }
+        }
+    }
+  }
+}

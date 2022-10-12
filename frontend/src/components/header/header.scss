@@ -1,0 +1,16 @@
+.header_page {
+    height: 22rem;
+    width: 100%;
+
+    &_image {
+        width: 100%;
+        height: 19rem;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+    }
+    h1 {
+        margin: 0;
+        padding: 1.5rem 2rem;
+    }
+}
